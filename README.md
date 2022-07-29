@@ -44,9 +44,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ![](Results/1.png)
 
-![](Results\2.png)
+![](Results/2.png)
 
-![](Results\3.png)
+![](Results/3.png)
 
 
 
