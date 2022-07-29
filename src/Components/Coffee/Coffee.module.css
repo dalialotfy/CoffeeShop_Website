@@ -1,0 +1,135 @@
+.btncolor{
+    background-color: orange;
+    border-color: orange;
+}
+
+.color{
+color: orange;
+}
+
+.background{
+    background-image: url('../Images/background.png');
+    height: 70vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+       position: relative;
+      
+   
+}
+
+.title
+{
+    position:absolute;
+    top:130px;
+    left: 50px;
+    font-size: 45px;
+    color:	goldenrod;
+    font-weight:700;
+
+}
+
+.imge1
+{
+    color: rgba(15, 11, 63, 1);
+    font-weight:700;
+    position: relative;
+
+}
+.imge2
+{
+    color: rgba(15, 11, 63, 1);
+    font-weight:700;
+    position: relative;
+
+}
+
+.imge2::after{
+    width:260px;
+    height: 5px;
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    content: '';
+}
+.imge1::before{
+    width:60px;
+    height: 5px;
+    background-color: orange;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    content: '';
+}
+.image{
+    margin: auto;
+}
+
+.square{
+    width:60px;
+    height: 70px;
+    background-color: orange;
+    position: absolute;
+    top: -10px;
+    right: 100px;
+    content: '';
+    z-index: -10;
+}
+.circle{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+    content: '';
+    z-index: -10;
+}
+
+h6
+{
+    font-size: 10px;
+    color: rgb(0, 187, 255);
+}
+.prod
+{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.shadow
+{
+    box-shadow: 5px 5px #88888818 ;
+    width: 100%;
+
+}
+.para
+{
+    font-weight: 600;
+    text-shadow: 2px 2px #88888830;
+
+}
+.star
+{
+    color: rgba(255, 204, 0, 0.676);
+}
+.join
+{
+    color: rgba(15, 11, 63, 1);
+    font-weight:700;
+    text-align: center;
+
+}
+.subBtn
+{
+    background-color: orange;
+    color: white;
+
+}
+.review
+{
+    text-shadow: 2px 2px #88888848;
+    color: rgba(128, 128, 128, 0.416);
+
+}
